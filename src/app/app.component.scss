@@ -1,0 +1,16 @@
+@import '../scss/styles.scss';
+.badge {
+    color: black;
+}
+
+.table-lined tr {
+    border-top: 1px solid #000000;
+}
+
+.modal-dialog-scrollable .modal-content {
+    overflow: scroll;
+}
+
+.img-fluid {
+    max-height: 220px;
+}
