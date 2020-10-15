@@ -13,7 +13,10 @@ export class AppComponent {
 
   }
 
-  contact() {
-    this.vs.scrollToAnchor('contact');
+  scrollToContact($element) {
+    console.log($element)
+    setTimeout(()=> {
+      $element.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'})
+    }, 400)
   }
 }
